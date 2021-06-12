@@ -1,0 +1,17 @@
+/*
+  Author: Boxuan Shan (ace18bs)
+  Modified date: 06/12/2018
+  Description: css of main page
+*/
+
+body{
+    text-align: center;
+}
+canvas{
+    border: solid;
+}
+#intro{
+    text-align: left;
+    margin: 0px auto;
+    width: 45em;
+}

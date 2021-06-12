@@ -1,0 +1,60 @@
+<!--
+  Author: Boxuan Shan (ace18bs)
+  Modified date: 06/12/2018
+  Description: main page
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <!-- Control Panel -->
+    <div id="control">
+        <span>Actions: </span>
+        <button id="standUpBtn">Stand up</button>
+        <button id="sitDownBtn">Sit down</button>
+        <button id="stretchBtn">Stretch</button>
+        <button id="resetBtn">Reset</button>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button id="debugBtn">Show Debug Options</button>
+    </div>
+
+    <!-- Canvas -->
+    <canvas id="canvas" width="1000" height="1000"></canvas>
+    <div>Image Source: <a href="http://699pic.com/tupian-400192292.html">http://699pic.com/tupian-400192292.html</a></div>
+
+    <!-- Descriptions -->
+    <h2>Description</h2>
+    <div id="intro">
+        <h3>Buttons</h3>
+        <ul>
+            <li>Stand up: Make the cat stand up</li>
+            <li>Sit down: Make the cat sit down</li>
+            <li>Reset: Reset the cat to initial status</li>
+            <li>Show Debug Options: Show more options for debuging</li>
+        </ul>
+        <h3>Effects</h3>
+        <ul>
+            <li>It will have a slight sway when standing</li>
+            <li>You can click it's body to make it sit down or stand up</li>
+            <li>You can click it's legs to make it stretch or stand up</li>
+            <li>You can click on a canvas point away from the animal to make it move to that point</li>
+            <li>You can click it's head to make it fell happy</li>
+            <li>You can click it's tail to make it Wag it's tail</li>
+        </ul>
+        <h3>Debugs</h3>
+        <ul>
+            <li>Show Click Box: Draw click box area for every part of the cat</li>
+            <li>Fill Click Box: Fill click box area for every part of the cat</li>
+            <li>Show Bone: Draw the "bones" of the cat</li>
+            <li>Print States: Print out the cat's states in the browser console</li>
+        </ul>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
